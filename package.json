@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-osnove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "autoprefixer": "^10.0.3",
+    "postcss": "^8.1.10",
+    "prettier-plugin-tailwind-css": "^1.4.0",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "npx tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
